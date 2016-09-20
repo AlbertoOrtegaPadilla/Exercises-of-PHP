@@ -7,9 +7,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Ejercico 3 PHP</title>
     </head>
     <body>
+        
+        <h1>TEMA 1</h1>
+        
+        <p><b>Ejercicio 3: </b>Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su correspondiente
+        traducción al castellano. Las palabras deben estar distribuidas en dos columnas. Utiliza la etiqueta
+        "table" de HTML.</p>
+        
+        <br><br>
+        
         <?php
         echo "<table>
             <tr>

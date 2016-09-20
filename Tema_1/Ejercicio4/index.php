@@ -7,9 +7,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Ejercicio 4 PHP</title>
     </head>
     <body>
+        
+        <h1>TEMA 1</h1>
+        
+        <p><b>Ejercicio 4: </b>Escribe un programa que muestre tu horario de clase mediante una tabla. Aunque se puede hacer
+        íntegramente en HTML (igual que los ejercicios anteriores), ve intercalando código HTML y PHP
+        para familiarizarte con éste último.</p>
+        
+        <br><br>
+        
         <?php
          echo "<table>
                     <tr>

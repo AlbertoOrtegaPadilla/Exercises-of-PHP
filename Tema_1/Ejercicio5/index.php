@@ -7,9 +7,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Ejercicio 5 PHP</title>
     </head>
     <body>
+        
+        <h1>TEMA 1</h1>
+        
+        <p><b>Ejercicio 5: </b>Escribe un programa que utilice las variables $x y $y. Asignales los valores 144 y 999 respectivamente.
+        A continuación, muestra por pantalla el valor de cada variable, la suma, la resta, la división
+        y la multiplicación.</p>
+        
+        <br><br>
+        
         <?php
         $x = 144;
         $y = 999;

@@ -7,21 +7,24 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 6 PHP</title>
+        <title>Ejercicio 9 PHP</title>
     </head>
     <body>
         
         <h1>TEMA 1</h1>
         
-        <p><b>Ejercicio 6: </b>Crea la variable $nombre y asígnale tu nombre completo. Muestra su valor por pantalla de tal forma
-        que el resultado sea el mismo que el del ejercicio 1.</p>
+        <p><b>Ejericio 9: </b>Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere convertir deberá estar
+        almacenada en una variable</p>
         
         <br><br>
+
         
         <?php
-            $nombre = "Alberto";
-            
-            echo $nombre;
+        $peseta = 500;
+        $euro = round($peseta / 166.386,$precision=2);
+        
+        echo $peseta . " pesetas es equivalente : " . $euro . " euros";
         ?>
+        
     </body>
 </html>
