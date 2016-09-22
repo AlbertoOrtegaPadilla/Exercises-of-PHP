@@ -19,7 +19,7 @@ and open the template in the editor.
         <p>Introduce una cantidad en <b>EURO</b>:</p>
         
         <form action="conversor.php" method="get">
-           <b>EURO:</b><input type="number" name="a"><br><br>
+           <b>EURO </b><input type="number" name="a"><br><br>
            <input type="submit" value="ENVIAR">
         </form> 
     </body>
