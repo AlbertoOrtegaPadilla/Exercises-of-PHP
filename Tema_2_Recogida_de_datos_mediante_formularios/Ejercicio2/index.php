@@ -16,11 +16,11 @@ and open the template in the editor.
         <p><b>Ejericio 2: </b>Realiza un conversor de euros a pesetas. Ahora la cantidad en euros que se quiere convertir se
         deberá introducir por teclado.</p>
         
-        <h3>Introduce una cantidad en EURO:</h3><br>
+        <p>Introduce una cantidad en <b>EURO</b>:</p>
         
-       <form action="conversor.php" method="get">
-                EURO: <input type="number" name="a"><br>
-                <input type="submit" value="conversor">
-            </form> 
+        <form action="conversor.php" method="get">
+           <b>EURO:</b><input type="number" name="a"><br><br>
+           <input type="submit" value="ENVIAR">
+        </form> 
     </body>
 </html>
