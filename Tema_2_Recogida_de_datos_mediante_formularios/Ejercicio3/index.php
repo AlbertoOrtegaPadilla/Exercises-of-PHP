@@ -7,19 +7,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 2 PHP parte 1</title>
+        <title></title>
     </head>
     <body>
-        
         <h1>TEMA 2</h1>
         
-        <p><b>Ejericio 2: </b>Realiza un conversor de euros a pesetas. Ahora la cantidad en euros que se quiere convertir se
-        deberá introducir por teclado.</p>
+        <p><b>Ejericio 3: </b>Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere convertir se deberá
+        introducir por teclado.</p>
         
-        <p>Introduce una cantidad en <b>EURO</b>:</p>
+        <p>Introduce una cantidad en <b>PESETAS</b>:</p>
         
         <form action="conversor.php" method="get">
-           <b>EURO:</b><input type="number" name="a"><br><br>
+           <b>PESETAS:</b><input type="number" name="a"><br><br>
            <input type="submit" value="ENVIAR">
         </form> 
     </body>
