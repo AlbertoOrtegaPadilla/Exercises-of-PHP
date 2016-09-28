@@ -10,6 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
+        <h1>TEMA 3</h1>
+        
+        <b>RESULTADO: </b><br>
+        
         <?php
             
             $hora = $_GET['n'];
