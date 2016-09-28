@@ -10,6 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
+        <h1>TEMA 3</h1>
+        
+        <b>RESULTADO: </b><br><br>
+        
        <?php
       
           $puntos = $_GET['r1'] + $_GET['r2'] + $_GET['r3'] + $_GET['r4'] + $_GET['r5'];
