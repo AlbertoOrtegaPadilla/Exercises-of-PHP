@@ -17,21 +17,17 @@ and open the template in the editor.
             echo " a = " . $a . "<br>";
             echo " b = " . $b;
             
-            if ($a < 0 && $b > 0) {
-                
-                echo "<br>ax + b = 0 => -" . $a . "x + $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
-                
-            } else if ($a > 0 && $b < 0) {
+            if ($a > 0 && $b < 0) {
                 
                 echo "<br>ax + b = 0 => " . $a . "x $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
                 
-                }else if ($b < 0 && $a < 0) {
+            }else if ($b < 0 && $a < 0) {
                     
-                        echo "<br>ax + b = 0 => " . $a . "x $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
+                    echo "<br>ax + b = 0 => " . $a . "x $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
                         
-                    }else {
-                            echo "<br>ax + b = 0 => " . $a . "x + $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
-                        }
+                }else {
+                        echo "<br>ax + b = 0 => " . $a . "x + $b = 0 => x = " . $b . "/$a => x = " . $b/$a;
+                    }
         ?>
     </body>
 </html>
