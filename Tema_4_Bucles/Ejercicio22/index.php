@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 22: </b><p>Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.</p><br>
+        <b>Ejercicio 22: </b><p>Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.</p><br>
         
         <h3>RESULTADO:</h3><br>  
         

@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 23: </b><p>Escribe un programa que permita ir introduciendo una serie indeterminada de números hasta que la
+        <b>Ejercicio 23: </b><p>Escribe un programa que permita ir introduciendo una serie indeterminada de números hasta que la
         suma de ellos supere el valor 10000. Cuando esto último ocurra, se debe mostrar el total acumulado,
         el contador de los números introducidos y la media.</p><br>
         
@@ -21,16 +21,14 @@ and open the template in the editor.
         
         <?php
             $n = $_GET['n'];
-            $suma = $_GET['suma'];   
-            
+            $suma = $_GET['suma'];              
             if (isset($n) || $suma < 10000) {                
                 $suma = $suma + $n;  
             }
             if ($suma > 10000) {
                     echo "La suma total es: $suma.";
                     echo "<br><a href=\"index.php\">>> Volver</a>";
-                }
-                
+                }                
             if (!isset($n) || $suma < 10000) {
         ?>
                 <form action="index.php" method="get">
@@ -39,8 +37,7 @@ and open the template in the editor.
                     <input type="submit" value="Aceptar">
                 </form><br>
         <?php
-            }             
-            
+            }                         
         ?>
     </body>
 </html>

@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 21: </b><p>Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo y
+        <b>Ejercicio 21: </b><p>Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo y
         nos diga cuantos números se han introducido, la media de los impares y el mayor de los pares . El
         número negativo sólo se utiliza para indicar el final de la introducción de datos pero no se incluye
         en el cómputo.</p><br>

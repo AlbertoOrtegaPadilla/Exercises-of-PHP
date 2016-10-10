@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 19: </b><p>Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado
+        <b>Ejercicio 19: </b><p>Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado
         mediante un formulario. La pirámide estará hecha de bolitas, ladrillos o cualquier otra imagen
         de las 5 que se deben dar a elegir mediante un formulario.</p><br>
         

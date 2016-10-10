@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 17: </b><p>Realiza un programa que sume los 100 números siguientes a un número entero y positivo
+        <b>Ejercicio 17: </b><p>Realiza un programa que sume los 100 números siguientes a un número entero y positivo
         introducido por teclado. Se debe comprobar que el dato introducido es correcto (que es un número
         positivo).</p><br>
         

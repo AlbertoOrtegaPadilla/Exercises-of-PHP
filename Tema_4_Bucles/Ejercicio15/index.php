@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 15: </b><p>Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque
+        <b>Ejercicio 15: </b><p>Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque
         por pantalla todas las potencias con base el numero dado y exponentes entre uno y el exponente
         introducido. No se deben utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y
         el 5, se deberán mostrar 2 elevado a 1, 2 elevado a 2, 2 elevado a 3, 2 elevado a 4, 2 elevado a 5.</p><br>

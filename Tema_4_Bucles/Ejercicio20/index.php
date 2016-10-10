@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 20: </b><p>Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.</p><br>
+        <b>Ejercicio 20: </b><p>Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.</p><br>
         
         <h3>RESULTADO:</h3><br>  
         

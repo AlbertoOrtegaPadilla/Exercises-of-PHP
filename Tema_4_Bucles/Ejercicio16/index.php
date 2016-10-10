@@ -13,7 +13,7 @@ and open the template in the editor.
         
         <h1>TEMA 4</h1>
         
-        <b>Ejericio 16: </b><p>Escribe un programa que diga si un número introducido por teclado es o no primo. Un número
+        <b>Ejercicio 16: </b><p>Escribe un programa que diga si un número introducido por teclado es o no primo. Un número
         primo es aquel que sólo es divisible entre él mismo y la unidad.</p><br>
         
         <h3>RESULTADO:</h3><br>  
