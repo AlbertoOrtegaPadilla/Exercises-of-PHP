@@ -44,7 +44,6 @@ and open the template in the editor.
         ?>
                 <form action="index.php" method="get">
                   <input type="number" name ="n1" autofocus>
-                  <input type="number" name ="n2" autofocus>
                   <input type="hidden" name="contador" value="<?= ++$contador ?>">
                   <input type="hidden" name="numeroTexto" value="<?= $numeroTexto?>">
                   <input type="submit" value="OK">
