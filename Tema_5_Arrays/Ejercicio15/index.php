@@ -29,14 +29,14 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-        <h1>Ejercicio 15</h1>
-        
-        <p>Realiza un programa que sea capaz de rotar todos los elementos de una matriz cuadrada una posición en el sentido de las agujas del reloj. 
-        La matriz debe tener 12 filas por 12 columnas y debe contener números generados al azar entre 0 y 100. Se debe mostrar tanto la matriz 
+        <h1>Tema 5</h1>
+
+        <b>Ejercicio 15: </b><p>Realiza un programa que sea capaz de rotar todos los elementos de una matriz cuadrada una posición en el sentido de las agujas del reloj.
+        La matriz debe tener 12 filas por 12 columnas y debe contener números generados al azar entre 0 y 100. Se debe mostrar tanto la matriz
         original como la matriz resultado, ambas con los números convenientemente alineados.</p>
-        
+
         <h3>RESULTADO:</h3>
-        
+
         <div>
             <table>
                 <tr>
@@ -49,28 +49,28 @@ and open the template in the editor.
                             $numero = rand(0, 100);
                             if($i == 0){
                               $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>";  
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i > 0 && $j == 0){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i == 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i > 0 && $j == 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if($i == 1 && $j < 11 && $j > 0){
                               $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>";  
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i > 1 && $j == 1){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i == 10 && $j < 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i > 1 && $j == 10){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else{
                                 $matriz[$i][$j] = $numero;
                                 echo "<td>$numero</td>";
@@ -107,7 +107,7 @@ and open the template in the editor.
                     $matriz[$i][$j] = $matriz[$i + 1][$j];
                 }
                 $matriz[10 - $j][$j] = $ultimoFila;
-            }   
+            }
         ?>
         <div>
             <table>
@@ -121,28 +121,28 @@ and open the template in the editor.
                             $numero = $matriz[$i][$j];
                             if($i == 0){
                               $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>";  
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i > 0 && $j == 0){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i == 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if ($i > 0 && $j == 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: red;\">$numero</td>"; 
+                                echo "<td style=\"background-color: red;\">$numero</td>";
                             }else if($i == 1 && $j < 11 && $j > 0){
                               $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>";  
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i > 1 && $j == 1){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i == 10 && $j < 11){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else if ($i > 1 && $j == 10){
                                $matriz[$i][$j] = $numero;
-                                echo "<td style=\"background-color: green;\">$numero</td>"; 
+                                echo "<td style=\"background-color: green;\">$numero</td>";
                             }else{
                                 $matriz[$i][$j] = $numero;
                                 echo "<td>$numero</td>";
