@@ -1,0 +1,139 @@
+#enunciado{
+	background-color: white;
+	padding: 1px 0px 1px 20px;
+}
+
+body{
+		background-color: #b6a4a4;
+}
+header{
+    margin : 0px;
+    padding: 0px;
+    position: relative;
+		top: 30px;
+		left: 28%;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid grey;
+}
+#cabecera{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 140px;
+    height: 140px;
+}
+/*CONTENEDOR DEL CARRITO*/
+#div{
+	margin: 0px;
+	padding-top: 5px;
+	position: relative;
+	top: -40px;
+	left: -7px;
+	width: 300px;
+	height: 500px;
+	background-color: white;
+	border: 2px solid grey;
+	float: right;
+}
+#carrito{
+	width: 75px;
+	height: 75px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+}
+/*CUADROS DE PRECIOS, CANTITDADES DE PRODUCTO Y PRECIO TOTAL CARRITO*/
+h4{
+	color: black;
+	margin-top: 0px;
+	margin-left: 70px;
+	background-color: grey;
+	border: 3px solid black;
+	width: 90px;
+}
+/*INPUT DE CANTIDADES DE CADA PRODUCTO*/
+#cantidadPor, #catidadTec, #cantidadMon, #cantidadPul{
+	top: 54px;
+	position: relative;
+	margin-top: 19px;
+}
+/*INPUT PRECIO TOTAL EN EL CARRITO*/
+#total{
+	position: relative;
+	top: -429px;
+	left: 58px;
+}
+/*LOS INPUT PARA ELIMINAR*/
+form.eliminar{
+	margin-left: 190px;
+	top: 8px;
+	position: relative;
+}
+/*IMAGENES*/
+.item{
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/*LOS FROMS DE CADA PRODUCTO CON IMAGENES EN GRANDE*/
+.producto{
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 370px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid grey;
+}
+/*IMAGENES EN GRANDE*/
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 2px;
+}
+/*1 CONTENEDOR PRODUCTO*/
+#es001{
+    margin-left: 70px;
+}
+h1{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.producto input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    font-family: "STJEDISE";
+}
+.producto input[type="submit"]:hover{
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+.eliminar input{
+    width: 25px;
+    height: 25px;
+    color: yellow;
+    background-color: black;
+    border: none;
+}
+.eliminar input:hover{
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
