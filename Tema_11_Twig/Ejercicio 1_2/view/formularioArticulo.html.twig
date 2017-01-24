@@ -1,0 +1,24 @@
+
+        {% extends 'base.html.twig' %}
+        {% block title %}
+
+        <h1>Nuevo Articulo</h1>
+        <hr>
+        
+        {% endblock %}
+        {% block container %}
+
+        <div class="container">
+            <form action="../Controller/grabaArticulo.php"  enctype="multipart/form-data" method="POST">
+                <div class="form-group">
+                    <label>Título</label>
+                    <input class="form-control" type="text" size="30" name="titulo">
+                </div>
+                <div class="form-group">
+                    <label>Contenido</label>
+                    <textarea class="form-control" name="contenido" cols="60" rows="6"></textarea>
+                </div>
+            <input class="btn btn-default" type="submit" value="Aceptar">
+          </form>
+      </div>
+        {% endblock %}

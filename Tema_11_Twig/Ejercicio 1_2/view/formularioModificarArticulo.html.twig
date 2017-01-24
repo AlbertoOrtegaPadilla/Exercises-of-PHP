@@ -1,0 +1,27 @@
+
+        {% extends 'base.html.twig' %}
+        {% block title %}
+
+        <h1>Modificacion De Articulo</h1>
+        <hr>
+        
+        {% endblock %}
+        {% block container %}
+
+        <div class="container">
+            <form action="modificaArticulo.php" method="post">
+                <input type="hidden" name="codigo" value="{{codigo}}">
+                <div class="form-group">
+                <label>Título</label>
+                <input class="form-control" type="text" size="30" name="titulo" value="{{titulo}}">
+                </div>
+                <div class="form-group">
+                <label>Contenido</label>
+                <textarea class="form-control" name="contenido" cols="60" rows="6">{{contenido}}</textarea>
+                </div>
+                <p><input class="btn btn-default" type="submit" value="Submit"></p>
+            </form>
+        </div>
+        {% endblock %}
+
+

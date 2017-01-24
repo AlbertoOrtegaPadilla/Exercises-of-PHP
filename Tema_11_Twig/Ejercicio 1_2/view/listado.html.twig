@@ -1,0 +1,32 @@
+
+        {% extends 'base.html.twig' %}
+        {% block container %}
+            
+            <h4><a href="../Controller/nuevoArticulo.php">Nuevo articulo</a></h4>
+        {% for articulos in articulos %}
+            <div class="container">
+                <table class="table">
+                    <tr>
+                        <th>{{articulos.titulo}}</th>
+                    </tr>
+                    <tr>
+                        <td>{{articulos.fecha}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{articulos.contenido}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="../controller/modificarArticulo.php" method="POST">
+                                <input type="hidden" name="codigo" value="{{articulos.codigo}}">
+                                <input type="hidden" name="titulo" value="{{articulos.titulo}}">
+                                <input type="hidden" name="contenido" value="{{articulos.contenido}}">
+                                <button class="btn btn-default" type="submit" name="accion" value="Modificar">Modificar</button>
+                            </form>
+                            <a href="../controller/borrarArticulo.php?codigo={{articulos.codigo}}">Borrar</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        {% endfor %}
+        {% endblock %}
